@@ -1,2 +1,4 @@
-# NextJS_template
-NextJS template
+
+docker compose -f docker-compose.development.yaml up
+
+docker compose -f docker-compose.development.yaml down

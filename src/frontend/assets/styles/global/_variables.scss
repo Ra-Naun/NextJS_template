@@ -1,0 +1,20 @@
+@use 'sass:map';
+
+$colors: (
+  'black': #000,
+  'white': rgb(255, 255, 255),
+);
+
+@function color($color) {
+  @return map.get($colors, $color);
+}
+
+$font-sizes: (
+  'large': 32px,
+  'medium': 24px,
+  'small': 16px,
+);
+
+@function font-size($fs) {
+  @return map.get($font-sizes, $fs);
+}
